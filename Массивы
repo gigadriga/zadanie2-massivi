@@ -33,7 +33,7 @@ for tuple in tuples.reversed() {
 print("\n")
 // Для произвольно выбранной даты (месяц и день) посчитайте количество дней до этой даты от начала года
 
-let (month, day) = (6, 31)
+let (month, day) = (6, 30)
 
 let monthIndex = month - 1
 var sumDays = day
